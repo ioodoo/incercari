@@ -1,0 +1,36 @@
+.google{
+  width: 200px;
+  margin-bottom: 15px;
+
+}
+
+input{
+  border: none;
+  width: 500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  
+
+}
+
+div {
+  text-align: center;
+}
+
+.google-button{
+  background-color: rgb(245, 245, 245);  
+  font-size: 15px;
+  border: none;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+
+}

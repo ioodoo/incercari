@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INCERCARI</title>
+</head>
+<body>
+<style>
+  .uber-button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 110px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    
+   }
+
+   .uber-button:hover{
+    opacity: 0.8;
+   }
+   
+    
+  .amazon-button{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor:pointer;
+    transition: background-color 0.15s;
+  }
+
+  .amazon-button:hover{
+    background-color: rgb(245, 205, 3);
+  }
+
+  .git-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 35px;
+    width:100px;
+    border-radius:9px;
+    font-style: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+  .git-button:hover{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15);
+  }
+
+
+
+  .get-started{
+    background-color: rgb(121, 82, 179);
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .get-started:hover{
+    background-color: rgb(99, 60, 156);
+  }
+  
+  .download-button{
+    background-color: white;
+    height: 35px;
+    width: 100;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: rgb(108, 117, 125);
+    font-style: bold;
+    margin-right: 120px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .download-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white
+  }
+
+  .apply-button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 16px;
+    font-style: bold;
+    cursor: pointer;
+    transition: backgraund-color 0.15s;
+  }
+  .apply-button:hover{
+    background-color: rgb(2, 70, 138);
+  }
+
+  .save-button{
+    background-color:white;
+    color: rgb(10, 102, 194);
+    height: 35px;
+    width: 80px;
+    border-color:rgb(10, 102, 194) ;
+    border-style: solid;
+    border-width:1px;
+    border-radius:16px;
+    font-style: bold;
+    cursor: pointer;
+    transition: backgraund-color 0.15s;
+  }
+
+  .save-button:hover{
+    background-color: rgb(226, 240, 254);
+  }
+  .h1-title{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .stock{
+    color: rgb(0, 118, 0);
+    font-style: bold;
+
+  }
+  .add-button{
+    background-color: rgb(255, 216, 20);
+    height: 27px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    font-size:12px;
+    cursor: pointer;
+  }
+  .add-button:hover{
+    background-color: rgb(247, 202, 0);
+  }
+  .add-button:active{
+    opacity: 0.5;
+  }
+
+  .buynow-button{
+    background-color: rgb(255, 164, 28);
+    height: 27px;
+    width:110px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .buynow-button:hover{
+    background-color: rgb(250, 137, 0);
+  }
+  .buynow-button:active{
+    opacity: 0.5;
+  }
+
+  .backtoamazon-button:hover{
+    color: rgb(0, 113, 133);
+  }
+
+  .back-button{
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .next-button{
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+  .search-result{
+    padding-right: 10px;
+  }
+  .Stretch-button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+    }
+
+
+    .Stretch-button:hover{
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 36px;
+      padding-right:36px;
+      }
+
+
+      .Shadow-button{
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .Shadow-button:active{
+         margin-top: 3px;
+         margin-left: 3px;
+         box-shadow: none;
+        }
+
+
+
+        .stretch1-button{
+          background-color: green;
+          border: none;
+          color: white;
+          padding-left: 18px;
+          padding-right: 18px;
+          padding-bottom: 8px;
+          padding-top: 8px;
+          margin-right: 8px;
+          cursor: pointer;
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-left: 10px;
+          margin-right: 10px;
+          transition: padding 0.15s, margin 0.15s;
+
+        }
+        .stretch1-button:hover{
+          padding-left: 25px;
+          padding-right: 25px;
+          margin-right: 0px;
+          margin-left: 0px;
+        }
+ 
+        .tahota-exercise{
+          font-family: tahoma;
+          font-size: 30px;
+          font-weight: bold;
+        }
+
+
+        .biggest-example{
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 26px;
+          margin-bottom: 5px;
+          }
+
+          .sale-example{
+            font-family: Arial;
+            color: red;
+            font-style: italic;
+            font-size: 20px;
+            margin-top:0px;
+            }
+
+
+            .HTML-title{
+              font-family: Verdana;
+            }
+</style>
+
+
+<button class="uber-button"
+        title="intra aici"> 
+  Request now
+</button>
+
+ 
+
+<button class="amazon-button"
+        title="da clic aici">
+  Add to Card
+</button>
+
+
+<button class="git-button"
+        title="da clic aici">
+  Sing up
+</button>
+<p 
+  class="tahota-exercise">
+  This is Tahoma Font
+</p>
+<p class="biggest-example">Biggest Deals of the Year!
+</p>
+<p class="sale-example">Sale end Tuesday
+</p>
+<br/>
+<br/>
+<p class="HTML-title">HTML CSS Course
+</p>
+<p class="Begninner-title">Beginner to Pro
+</p>
+<p class="inthis-text"> In this course, we'il learn the skills you need to become a developer
+</p>
+<button class="green-button"> Get started
+</button>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<button class="get-started"
+        title="da clic aici">
+  Get started
+</button>
+
+<button class="download-button"
+        title="da clic aici">
+  Download
+</button>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+  <button class="apply-button"
+          title="da clic aici">
+  Apply on company website
+  </button>
+
+  <button class="save-button"
+          title="da clic aici">
+  Save
+  </button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <a class="backtoamazon-button", href="http://www.amazon.com" target="_blank"
+    title="da clic aici">
+  Back to Amazon
+    </a>
+
+    <h1
+      class="h1-title"> Nicke Black Running Shoes
+    </h1>
+
+    <p class="stock">
+      $39 - in stock.
+    </p>
+    
+    <p>
+      Free delivery tomorrow.
+    </p>
+
+    <button class="add-button"
+            title="da clic aici">
+      Add to card
+    </button>
+
+    <button class="buynow-button"
+            title="da clic aici">
+      Buy now
+    </button>
+    <br/>
+    <br/>
+    <br/>
+
+
+
+    
+    <button class="back-button"> Back
+    </button>
+    <a class="search-result" href="https://google.com" target="_blank">1</a>
+    <a class="search-result" href="https://google.com" target="_blank">2</a>
+    <a class="search-result" href="https://google.com" target="_blank">3</a>
+    <a class="search-result" href="https://google.com" target="_blank">4</a>
+    <a class="search-result" href="https://google.com" target="_blank">5</a>
+    
+    <button class="next-button"> Next
+    </button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button class="Stretch-button"> Stretch </button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button class="Shadow-button"> Shadow</button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button class="stretch1-button">One</button>
+    <button class="stretch1-button">Two</button>
+    <button class="stretch1-button">Three</button>
+    
+
+
+  </body>
+ </html>

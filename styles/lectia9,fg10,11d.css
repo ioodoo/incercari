@@ -1,0 +1,86 @@
+.all {
+ border-width: 1px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+ }
+
+ p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+ }
+
+ .grid {
+  display: grid;
+  grid-template-columns:200px 200px 200px;
+  column-gap: 20px;
+  
+}
+
+.mutual-friends-row {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.image {
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+
+
+}
+
+.text1 {
+  margin-left: 10px;
+  font-weight: bold;
+  
+}
+
+
+
+.button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  
+
+}
+.photo-dog {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  }
+
+
+.text-div {
+  display: inline-block;
+  color: rgb(100, 100, 100);
+  margin-top: 13px;
+  vertical-align: top;
+  font-size: 12px;
+ }
+
+.img {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+
+  
+  
+}
+
+
+  
+
